@@ -1,32 +1,16 @@
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+  <div className="hero min-h-screen bg-secondary">
+    <div className="text-center hero-content">
+      <div className="max-w-md">
+        <h1 className="mb-5 text-secondary-content text-5xl font-bold">
+              Hello Daisy!
+            </h1> 
+        <p className="mb-5 text-secondary-content">
+              Welcome to Remix, Tailwind and DaisyUI! 
+            </p> 
+      </div>
     </div>
+  </div>
   );
 }
